@@ -1,0 +1,39 @@
+@media screen and (max-width:600px) {
+  
+ 
+    header {
+      flex-flow: column wrap;
+      display: flex;
+
+       
+    }
+    div.links { 
+      
+       flex-direction: column;
+       display: none;
+       padding: 20px;
+       flex-flow: column nowrap;
+       justify-content: space-between;
+       align-items: center;
+       
+  
+    }
+    div.links > a {
+      display: flex;
+      flex-flow: column nowrap;
+     width: 40vw;
+    }
+    
+    article {
+        display: none;
+    }
+    header> span.material-symbols-outlined {
+      display: block;
+      color: white;
+        margin: auto;
+        padding: 10px; 
+          cursor: pointer;
+          margin-top: 25px;
+    }
+    
+   }
