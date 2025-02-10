@@ -2,25 +2,27 @@
   
  
     header {
-      flex-flow: column wrap;
+      flex-flow: row wrap;
       display: flex;
 
        
     }
     div.links { 
+      display: flex;
+      flex-flow: row wrap;
+      flex: 1 1 auto;
       
-       flex-direction: column;
-       display: none;
-       padding: 20px;
-       flex-flow: column nowrap;
-       justify-content: space-between;
-       align-items: center;
+       
+       
+       
+       
+       
        
   
     }
     div.links > a {
       display: flex;
-      flex-flow: column nowrap;
+      flex-flow: row wrap;
      width: 40vw;
     }
     
@@ -43,7 +45,7 @@
     margin: auto;
     padding: 10px;
      display: flex;
-     flex-direction: column-reverse;
+     flex-direction: column;
      flex-wrap: nowrap;
      justify-items: space-around;
        
@@ -56,9 +58,17 @@
     flex-flow: column;
    }
    img {
+    display: none;
     width: 380px;
    }
-
+   form {
+    margin: 0 auto;
+   }
+   input {
+    align-self: center;
+    width: 280px;
+   }
+ 
 
 
 
