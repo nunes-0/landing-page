@@ -25,7 +25,9 @@
     }
     
     article {
-        display: none;
+    display: block;
+    
+      
     }
     header> span.material-symbols-outlined {
       display: block;
@@ -36,15 +38,26 @@
           margin-top: 25px;
     }
      main {
-    border: 1px solid white;
-    width: 90%;
+    
+    width: 80%;
     margin: auto;
- 
+    padding: 10px;
+     display: flex;
+     flex-direction: column-reverse;
 
- 
-
+    
 
      }
+    h2 {
+      font-size: 3em;
+    }
+   aside {
+    flex-flow: column;
+   }
+   img {
+    width: 400px;
+   }
+
 
 
 
