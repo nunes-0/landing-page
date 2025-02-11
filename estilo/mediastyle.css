@@ -44,15 +44,16 @@
 
      }
     h2 {
-      font-size: 38px;
+      
+      font-size: 31px;
       flex-shrink: 0;
-      display: block;
+      
 
     }
     h2 > span {
-
+      display: block;
       flex-shrink: 0;
-      font-size: 35px;
+      font-size: 32px;
     }
 
        aside {
