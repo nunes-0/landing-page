@@ -44,7 +44,7 @@
 
      }
     h2 {
-      
+      display: flex;
       font-size: 31px;
       flex-shrink: 0;
       
