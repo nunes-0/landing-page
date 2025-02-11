@@ -74,6 +74,7 @@
     display: block;
    }
    a#botão{
+     display: flex;
     flex-basis: 30px;
     flex-shrink: 0;
    }
