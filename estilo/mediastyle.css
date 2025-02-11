@@ -46,9 +46,16 @@
     h2 {
       font-size: 38px;
       flex-shrink: 0;
+      display: block;
 
     }
-   aside {
+    h2 > span {
+
+      flex-shrink: 0;
+      font-size: 35px;
+    }
+
+       aside {
     flex-flow: column;
    }
    img {
